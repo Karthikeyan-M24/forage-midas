@@ -1,2 +1,5 @@
+mkdir .\src\main\resources -Force
+@'
 general:
   kafka-topic: trader-updates
+'@ | Set-Content .\src\main\resources\application.yml
